@@ -3,7 +3,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('runs/train/v8s-asf3/weights/best.pt')
+    model = YOLO('runs/train/v8s/weights/best.pt')
     model.val(data='dataset/data.yaml',
               split='val',
               imgsz=640,
@@ -11,5 +11,5 @@ if __name__ == '__main__':
               # rect=False,
               save_json=True, # if you need to cal coco metrice
               project='runs/val',
-              name='v8s-asf',
+              name='v8s',
               )
