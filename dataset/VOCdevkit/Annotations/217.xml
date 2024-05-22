@@ -1,0 +1,26 @@
+<annotation>
+	<folder>addresize_data</folder>
+	<filename>217.jpg</filename>
+	<path>/Users/zolivia/Desktop/addresize_data/217.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>firstresistance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>171</ymin>
+			<xmax>200</xmax>
+			<ymax>191</ymax>
+		</bndbox>
+	</object>
+</annotation>

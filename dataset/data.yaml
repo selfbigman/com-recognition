@@ -1,0 +1,12 @@
+# dataset path
+path: E:/MYP/ultralytics-main/
+train: ./dataset/images/train
+val: ./dataset/images/val
+test: ./dataset/images/test
+
+# number of classes
+nc: 21
+
+# class names
+names: ['firstresistance','seconddiode','pnp','firstdiode','secondresistance','capacitor','gnd','amplifier','firstled','firstpolarcapacitor','npn',
+           'inductor','light','rectifierbridge','battery','transformer','secondled','fuse','secondpolarcapacitor','loudspeaker','mos',]
